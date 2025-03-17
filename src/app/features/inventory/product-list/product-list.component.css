@@ -1,0 +1,85 @@
+/* product-list.component.css */
+
+/* Container for the product list */
+.product-list-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header */
+  h2 {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* List container */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    font-size: 1.1rem;
+    color: #444;
+  }
+  
+  ul li:last-of-type {
+    border-bottom: none;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #007b5e;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #005f42;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  /* Styling for "Add Product" button */
+  button.router-link {
+    background-color: #28a745;
+    margin-top: 20px;
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    font-size: 1.2rem;
+  }
+  
+  /* Search filter component styling */
+  app-search-filter {
+    margin-bottom: 20px;
+    display: block;
+    text-align: center;
+  }
+  
+  /* Styling for when the product list is empty */
+  .empty-list-message {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #888;
+    padding: 20px;
+  }
+  
